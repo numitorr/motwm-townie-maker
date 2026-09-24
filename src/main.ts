@@ -52,7 +52,11 @@ Hooks.on("renderActorDirectory", (_app: any, html: any, _data: any) => {
   const root = getApplicationElement(html);
   if (!root) return;
 
-  const actions = root.querySelector(".directory-header .action-buttons");
+  const actions =
+    root.querySelector(".directory-header .action-buttons") ||
+    root.querySelector(".header-actions.action-buttons") ||
+    root.querySelector(".action-buttons") ||
+    (root.matches?.(".action-buttons") ? root : null);
   if (!actions) return;
 
   if (actions.querySelector(".motwm-townie-maker-btn")) return;

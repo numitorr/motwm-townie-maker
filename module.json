@@ -1,11 +1,11 @@
 {
   "id": "motwm-townie-maker",
   "title": "MOTWM Townie Maker",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "readme": "README.md",
   "license": "LICENSE",
-  "bugs": "https://github.com/Xombit/motwm-townie-maker/issues",
-  "changelog": "https://github.com/Xombit/motwm-townie-maker/blob/main/CHANGELOG.md",
+  "bugs": "https://github.com/numitorr/motwm-townie-maker/issues",
+  "changelog": "https://github.com/numitorr/motwm-townie-maker/blob/main/CHANGELOG.md",
   "compatibility": {
     "minimum": "11",
     "verified": "14"
@@ -15,9 +15,6 @@
     {
       "name": "Xombit"
     }
-  ],
-  "system": [
-    "D35E"
   ],
   "esmodules": [
     "dist/main.js"
@@ -43,8 +40,8 @@
       }
     ]
   },
-  "url": "https://github.com/Xombit/motwm-townie-maker",
-  "manifest": "https://raw.githubusercontent.com/Xombit/motwm-townie-maker/main/module.json",
-  "download": "https://github.com/Xombit/motwm-townie-maker/releases/download/0.1.0/motwm-townie-maker.zip",
+  "url": "https://github.com/numitorr/motwm-townie-maker",
+  "manifest": "https://raw.githubusercontent.com/numitorr/motwm-townie-maker/main/module.json",
+  "download": "https://github.com/numitorr/motwm-townie-maker/releases/download/0.3.1/motwm-townie-maker.zip",
   "media": []
 }

@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.3.1] - 2026-09-24
+
+### Fixed
+- Removed legacy top-level `"system"` manifest key that Foundry v14 reports as unknown (system dependency remains under `relationships.systems`).
+- Hardened Actor Directory button injection for Foundry v14 header markup (`.header-actions.action-buttons` / `.action-buttons` fallbacks).
+
+### Changed
+- Pointed package `url` / `manifest` / `download` / issue links at the `numitorr/motwm-townie-maker` fork for installs and updates.
+
 ## [Unreleased]
 
 ### Changed
